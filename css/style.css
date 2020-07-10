@@ -1241,6 +1241,13 @@ video {
     background-color: red;
     width:50%;
 }
+.Footer-h5{
+    color: rgb(228, 226, 226);
+    padding-bottom: 4%;
+}
+.Initiative-end {
+    padding-bottom: 15%;
+}
 .google-maps iframe {
     position: absolute;
     top: 0;
