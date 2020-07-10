@@ -87,7 +87,16 @@ p {
     background-color: #2f3191;
     color: #fff;
 }
-
+.volunteer-logo{
+    padding:0 0 2% 0;
+}
+.form-head{
+    padding-bottom: 2%;
+}
+.flex-container{
+    flex-direction: column;
+    border-width: 2px;
+}
 .topbar .bar-phone {
     border-right: 1px solid #fff;
     font-size: 14px;
@@ -194,7 +203,11 @@ p {
     width: 260px;
     padding: 5px 15px;
 }
-
+.volunteer-form{
+    width:50%;
+    margin:auto;
+    text-align: left;
+}
 
 #first-slider .main-container {
     padding: 0;
@@ -1224,7 +1237,10 @@ video {
     height: 0;
     overflow: hidden;
 }
-
+.permission{
+    background-color: red;
+    width:50%;
+}
 .google-maps iframe {
     position: absolute;
     top: 0;
@@ -1232,7 +1248,15 @@ video {
     width: 100% !important;
     height: 100% !important;
 }
-
+.input-class{
+    padding-bottom: 5%;
+}
+.date-class{
+    padding-top: 5%;
+}
+.sign-class{
+    padding-top: 4%;
+}
 .con-box {
     color: #fff;
     padding: 50px 0;

@@ -92,99 +92,161 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h1>VOLUNTEER</h1>
+                        <h1>Volunteer-form</h1>
                     </div>
                     <div class="col-sm-6">
-                        <h6 class="breadcrumb"><a href="index.html">Home</a> / Volunteer</h6>
+                        <h6 class="breadcrumb"><a href="index.html">Home</a> / FORM</h6>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="volunteer-sec" style="margin-top:40px;">
+    <section id="volunteer-form-sec" style="margin-top:40px;">
         <div class="container">
-            <div class="row">
-               <h1>Volunteer</h1>
+            <div class="row text-center">
+                <img class="volunteer-logo" src="images/logo.png">
+                <h3 class="form-head">Volunteer form</h3>
 
-               <br>
+                <div class="flex-container volunteer-form ">
+                    <form>
+                        <div class="form-row col-md-12 col-sm-6 ">
+                            <div class=" form-group">
+                                <label for="inputFullName">Full Name</label>
+                                <input type="text" class="form-control" id="fullName">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputParentName">Father's/Mother's Name</label>
+                                <input type="text" class="form-control" id="parentName">
+                            </div>
+                        </div>
+                        <!-- <div class="form-row">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div> -->
+                        <div class="form-row col-md-6 col-sm-3">
+                            <label for="birthDate">Date of birth</label>
+                            <input type="date" class="form-control" id="birthDate"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-group">
+                            <div class="form-group col-sm-3 col-md-6">
+                                <label for="inputState">Gender</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected></option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="custom-file col-md-12 col-sm-6">
+                                <label class="custom-file-label" for="photo">Photo*</label>
+                                <input type="file" class="custom-file-input input-class" id="photo">
+                            </div>
+                        </div>
+                        <div class="form-row col-md-12 col-sm-6">
+                            <div class=" form-group">
+                                <label for="inputEmailId">Email*</label>
+                                <input type="email" class="form-control" id="emailId">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 col-sm-3">
+                                <label for="inputPhoneNo">Phone Number*</label>
+                                <input type="text" class="form-control" id="phoneNo">
+                            </div>
+                            <div class="col-md-6 col-sm-3">
+                                <label for="inputWhatsappNumber">Whatsapp Number*</label>
+                                <input type="text" class="form-control" id="whatsappNo">
+                            </div>
+                        </div>
+                        <div class="form-row col-md-12 col-sm-6">
+                            <label>
+                                <h4>Present Address*</h4>
+                            </label>
+                            <div class="form-group">
+                                <label for="street">Street*</label>
+                                <input type="text" class="form-control" id="street">
+                            </div>
+                            <div class="form-group">
+                                <label for="City">City/Suburb</label>
+                                <input type="text" class="form-control" id="city">
+                            </div>
+                            <div class="form-group">
+                                <label for="state">State*</label>
+                                <input type="text" class="form-control" id="state">
+                            </div>
+                            <div class="form-group">
+                                <label for="zip">Zip/Post Code*</label>
+                                <input type="text" class="form-control" id="zip">
+                            </div>
+                            <div class="form-group">
+                                <label for="country">Country*</label>
+                                <input type="text" class="form-control" id="country">
+                            </div>
+                        </div>
+                        <div class="form-row col-md-12 col-sm-6">
+                            <label for="inputQualification">Highest Qualification*</label>
+                            <select id="inputState" class="form-control">
+                                <option selected></option>
+                                <option>High School (10th)</option>
+                                <option>Intermediate (12th)</option>
+                                <option>Graduated</option>
+                                <option>Post Graduated</option>
+                                <option>Matriculation</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-row col-md-12 col-sm-6">
+                            <label for="volfor">Volunteering For?</label>
+                            <input type="text" class="form-control" id="volfor">
+                        </div>
+                        <div class="form-row">
+                            <div class="custom-file col-md-12 col-sm-6">
+                                <label class="custom-file-label" for="idProof">Identity Proof*</label>
+                                <input type="file" class="custom-file-input input-class" id="idProof">
+                            </div>
+                        </div>
+                        <div class="form-row col-md-12 col-sm-6">
+                            <h5>DECLARATION</h5>
+                            <p>I declare that all the information furnished in this form is true to the best of my
+                                knowledge and belief. I have read the terms and condition and rules. And I will abide by
+                                them and work in the interest of the organization. My membership can be cancelled by the
+                                Secretary without assigning any reason if my activities or conduct are deemed unfit for
+                                the organization or for any other reason. By signing this document I agree to be part of
+                                this organization and work for it and ready to obey and follow orders task assigned by
+                                the core group under leadership of Board Of Members.
+                            </p>
+                            <div class="btn-group btn-group-toggle col-md-12 col-sm-6" data-toggle="buttons">
+                                <label class="btn btn-block btn-primary  active">
+                                    <input type="radio" class="permission" name="options" id="option1" checked> YES
+                                </label>
+                                <label class="btn btn-block btn-primary">
+                                    <input type="radio" class="permission" name="options" id="option2"> NO
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row col-md-6 col-sm-3">
+                            <label for="currentDate" class="date-class">Date*</label>
+                            <input type="date" class="form-control date-class" id="currentDate">
+                        </div>
+                        <div class="form-row  col-md-12 col-sm-6">
+                            <div class="custom-file">
+                                <label class="custom-file-label sign-class" for="sign">Signature of Applicant*</label>
+                                <input type="file" class="custom-file-input input-class " id="sign">
+                                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
-               <p>In INYF, we believe that each individual can contribute and support in building a better and secure
-                   society. Your time and initiative is deeply valued and appreciated by us. There are number of
-                   initiatives, campaigns, events and projects of INYF, within our health, education, livelihood and
-                   disaster preparedness and response Programmes, and your voluntary support to us is highly welcome by
-                   us.</p>
-
-                <hr class="line">
-
-                <p>The Volunteer Programme with INYF is thronged as a dedicated service of minimum one month to maximum
-                    six months. We believe that to work for social change you need to contribute a substantial amount of
-                    time to understand the needs and cater in the best possible way with your unique skill set. If you
-                    want to volunteer for events and campaigns, the time is minimum one day and maximum a week.</p>
-                
-                    <br>
-                <p>The volunteer opportunities arise across our projects and programmes spread across Uttar Pradesh,
-                    state of India in the field of Health, Education, Livelihoods and during Disaster response, and also
-                    at the time of any emergency and during our events and campaigns.</p>
-                <br>
-                <p>For voluntary work, please note the following points:</p>
-
-                <ul>
-                    <li>Your CV should reach us at info@inyf.in with the subject line volunteer and your area of interest
-                    like education, health, livelihood, disaster rooster or events & campaigns.</li>
-                    <li>Your skill set should match the desired area of interest of application.</li>
-                    <li>While applying, please specify clearly the time you would like to dedicate, your area of interest or
-                    any other information that you would like to share.</li>
-                    <li>For emergency roster enrollment, a letter of no objection supported with your family’s signature
-                    should be sent to us.</li>
-                    <li>For any voluntary support, INYF covers expenses and as per the grade of work awards appropriate
-                    remuneration.
-                    We actively seek volunteers, who would be able to help us in our project work, organize events, help
-                    raise funds, support in campaigns and participate during the emergency relief work.</li>
-                </ul>
-
-                <br>
-
-                <h4><strong>Current Volunteer opening</strong></h4>
-
-                <br>
-
-                <p>Presently, we do not have any volunteer opportunities with us. Please watch this space for further
-                    notice, or fill in the form provided in this page. Our representative will revert back to you, in
-                    case of any openings. Thank you.</p>
-                    <br>
-
-                <p>You can also look for our announcement section on home page, internship section and power to empower
-                    page to explore any other interest areas.</p>
-
-                <button href="#">APPLY TO BECOME VOLUNTEER WITH US</button>
-                
 
             </div>
         </div>
     </section>
 
-    <div class="callout">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Change Their World. Change Yours. This changes everything.</h2><!-- /.callout-title -->
-                </div><!-- /.columns large-6 -->
-
-                <div class="col-md-6">
-                    <div class="callout-actions">
-                        <a href="volunteer.html" class="button">Become Volunteer</a>
-
-                        <span class="callout-separator">
-                            <span>Or</span>
-                        </span>
-
-                        <a href="donate.html" class="button">Donate For Cause</a>
-                    </div><!-- /.callout-actions -->
-                </div><!-- /.columns large-6 -->
-            </div><!-- /.row -->
-        </div>
-    </div>
 
     <footer class="footer">
         <div class="footer-body">
