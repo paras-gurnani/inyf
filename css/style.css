@@ -1689,7 +1689,14 @@ video {
     }
 
 }
-
+.donate-button{
+    margin-top: -5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.index-list{
+    vertical-align: auto;
+}
 @media (max-width: 480px) {
 
     h1 {
