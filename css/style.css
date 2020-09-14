@@ -1780,6 +1780,24 @@ video {
 
 }
 
+.f-social{
+    padding:0.5rem 0.5rem;
+    position: relative;
+    top: 0.5em;
+    
+}
+
+.icon{
+    height: 4rem;
+    background-color: #27262c;
+
+}
+.icon-s{
+    height: fit-content;
+    color: rgb(228, 226, 226);
+    width: 4rem;
+}
+
 @media (max-width: 360px) {
 
     h1 {
